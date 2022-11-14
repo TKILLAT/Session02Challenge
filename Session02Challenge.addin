@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Session02Challenge</Text>
+    <Description>Some description for Session02Challenge</Description>
+    <Assembly>Session02Challenge.dll</Assembly>
+    <FullClassName>Session02Challenge.Command</FullClassName>
+    <ClientId>5530822a-229a-406c-999d-c80f396ad913</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Session02Challenge</Name>
+    <Assembly>Session02Challenge.dll</Assembly>
+    <FullClassName>Session02Challenge.App</FullClassName>
+    <ClientId>80836e4f-321b-47a9-9b38-244a0bd536ac</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
